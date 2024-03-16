@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Muse</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="logo">
+          <img src="img/muse-logo.png" alt="" />
+        </div>
+        <nav class="nav">
+          <ul class="nav-bar">
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#musica">Músicas</a></li>
+            <li><a href="#album">albuns</a></li>
+            <li><a href="#photos">Galeria</a></li>
+            <li><a href="#end">inscreva-se</a></li>
+
+          </ul>
+        </nav>
+        <div class="nav-mobile">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="nav-mobile-close" style="display: none;">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+    <div class="ghost"></div>
+    <div class="menu-mobile" style="display: none;">
+      <ul class="nav-bar-mobile">
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#musica">Músicas</a></li>
+        <li><a href="#album">albuns</a></li>
+        <li><a href="#photos">Galeria</a></li>
+        <li><a href="#end">inscreva-se</a></li>
+      </ul>
+    </div>
+    <main class="main"></main>
+    <section id="about">
+      <div class="container">
+      <div class="about-container">
+        <div class="video">
+          <video controls autoplay muted>
+            <source src="src/videoplayback.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="info">
+          <h1 class="title" style="border: none; width: 100%; text-align: center;">
+            A vanguarda do som alternativo
+          </h1>
+          <p>
+            Muse é uma banda britânica que desafia os limites da música
+            alternativa com sua mistura inovadora de rock progressivo e
+            eletrônica futurista. Com uma carreira marcada por álbuns icônicos e
+            performances eletrizantes, eles se destacam como uma força
+            inigualável no cenário musical global. Suas letras profundas
+            exploram uma variedade de temas, desde o amor até o futuro
+            distópico, cativando os ouvintes e oferecendo uma experiência
+            musical única.
+          </p>
+          <p>
+            Com uma discografia rica e variada, o Muse continua a evoluir e se
+            manter na vanguarda da música alternativa. Com uma legião de fãs
+            apaixonados em todo o mundo, a banda convida você a explorar seu
+            universo sonoro extraordinário e a se preparar para ser hipnotizado,
+            desafiado e inspirado por uma banda que redefiniu a música
+            alternativa no século XXI.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="musica">
+      <h2 class="title" style="margin-bottom: 5rem">músicas</h2>
+      <div class="carousel">
+        <div class="botao-esquerdo none"></div>
+        <div class="botao-direito"></div>
+        <div class="mobile-botao-esquerdo " style="display: none;"></div>
+        <div class="mobile-botao-direito"></div>
+
+        <div class="mini-botao-direito"></div>
+        <div class="mini-botao-esquerdo" style="display: none;"></div>
+
+        <div class="slide">
+          <div class="item">
+            <div class="item-first">
+              <h2 class="title">will of the people</h2>
+              <img src="img/muse_slides/Muse_WOTP.jpeg" alt="" />
+            </div>
+            <div class="item-aside">
+              <div class="playlist " id="wop">
+                <ul>
+                  <div class="title-table">playlist</div>
+                  <li><a href="">Will of the People</a></li>
+                  <li><a href="">Compliance</a></li>
+                  <li><a href="">Liberation</a></li>
+                  <li><a href="">Won't Stand Down</a></li>
+                  <li><a href="">Ghosts (How Can I Move On)</a></li>
+                  <li><a href="">You Make Me Feel Like It's</a></li>
+                  <li><a href="">Kill or Be Killed</a></li>
+                  <li><a href="">Verona</a></li>
+                  <li><a href="">Euphoria</a></li>
+                  <li><a href="">We Are Fucking Fucked</a></li>
+                  <div>.</div>
+                </ul>
+              </div>
+              <a href="https://open.spotify.com/album/5qK8S5JRF8au6adIVtBsmk" target="_blank" class="button">stream</a>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-first">
+              <h2 class="title">Simulation of theory</h2>
+              <img src="img/muse_slides/Muse - Simulation Theory.png" alt="" />
+            </div>
+            <div class="item-aside">
+              <div class="playlist" id="st">
+                <ul>
+                  <div class="title-table">playlist</div>
+                  <li><a href="">algorithm</a></li>
+                  <li><a href="">the dark side</a></li>
+                  <li><a href="">pressure</a></li>
+                  <li><a href="">propaganda</a></li>
+                  <li><a href="">break it to me</a></li>
+                  <li><a href="">something human</a></li>
+                  <li><a href="">thought contagion</a></li>
+                  <li><a href="">Get Up and Fight</a></li>
+                  <li><a href="">Blockades</a></li>
+                  <li><a href="">Dig Down</a></li>
+                  <li><a href="">The Void</a></li>
+                  <div>.</div>
+                </ul>
+              </div>
+              <a href="https://open.spotify.com/album/5OZgDtx180ZZPMpm36J2zC" target="_blank" class="button">stream</a>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-first">
+              <h2 class="title">drones</h2>
+              <img src="img/muse_slides/Muse - Drones.png" alt="" />
+            </div>
+            <div class="item-aside">
+              <div class="playlist" id="dr">
+                <ul>
+                  <div class="title-table">playlist</div>
+                  <li><a href="">Dead Inside</a></li>
+                  <li><a href="">[Drill Sergeant]</a></li>
+                  <li><a href="">Psycho</a></li>
+                  <li><a href="">Mercy</a></li>
+                  <li><a href="">Reapers</a></li>
+                  <li><a href="">The Handler</a></li>
+                  <li><a href="">[JFK]</a></li>
+                  <li><a href="">Defector</a></li>
+                  <li><a href="">Revolt</a></li>
+                  <li><a href="">Aftermath</a></li>
+                  <li><a href="">The Globalist</a></li>
+                  <li><a href="">Drones</a></li>
+                  <div>.</div>
+                </ul>
+              </div>
+              <a href="https://open.spotify.com/album/2wart5Qjnvx1fd7LPdQxgJ" target="_blank" class="button">stream</a>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-first">
+              <h2 class="title">the 2nd law</h2>
+              <img src="img/muse_slides/Muse - The 2nd Law.png" alt="" />
+            </div>
+            <div class="item-aside">
+              <div class="playlist" id="t2l">
+                <ul>
+                  <div class="title-table">playlist</div>
+                  <li><a href="">Supremacy</a></li>
+                  <li><a href="">Madness</a></li>
+                  <li><a href="">Liberation</a></li>
+                  <li><a href="">Panic Station</a></li>
+                  <li><a href="">Prelude</a></li>
+                  <li><a href="">Survival</a></li>
+                  <li><a href="">Follow Me</a></li>
+                  <li><a href="">Animals</a></li>
+                  <li><a href="">Explorers</a></li>
+                  <li><a href="">Big Freeze</a></li>
+                  <li><a href="">Save Me</a></li>
+                  <li><a href="">Liquid State</a></li>
+                  <li><a href="">The 2nd Law: Unsustainable</a></li>
+                  <li><a href="">The 2nd Law: Isolated System</a></li>
+                  <div>.</div>
+                </ul>
+              </div>
+              <a href="https://open.spotify.com/album/3KuXEGcqLcnEYWnn3OEGy0" target="_blank" class="button">stream</a>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-first">
+              <h2 class="title">the Resistance</h2>
+              <img src="img/muse_slides/Muse - The Resistance.png" alt="" />
+            </div>
+            <div class="item-aside">
+              <div class="playlist" id="tr">
+                <ul>
+                  <div class="title-table">playlist</div>
+                  <li><a href="">Uprising</a></li>
+                  <li><a href="">Resistance</a></li>
+                  <li><a href="">Undisclosed Desires</a></li>
+                  <li><a href="">United States of Eurasia</a></li>
+                  <li><a href="">Guiding Light</a></li>
+                  <li><a href="">Unnatural Selection</a></li>
+                  <li><a href="">MK Ultra</a></li>
+                  <li><a href="">I Belong to You</a></li>
+                  <li><a href="">Exogenesis: Symphony Part 1</a></li>
+                  <li><a href="">Exogenesis: Symphony Part 2</a></li>
+                  <li><a href="">Exogenesis: Symphony Part 3</a></li>
+
+                  <div>.</div>
+                </ul>
+              </div>
+              <a href="https://open.spotify.com/album/0eFHYz8NmK75zSplL5qlfM" target="_blank" class="button">stream</a>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-first">
+              <h2 class="title">black holes & rvl</h2>
+              <img src="img/muse_slides/Muse - Black Holes.png" alt="" />
+            </div>
+            <div class="item-aside">
+              <div class="playlist" id="bbr">
+                <ul>
+                  <div class="title-table">playlist</div>
+                  <li><a href="">Take a Bow</a></li>
+                  <li><a href="">Starlight</a></li>
+                  <li><a href="">Liberation</a></li>
+                  <li><a href="">Supermassive Black Hole</a></li>
+                  <li><a href="">Map of the Problematique)</a></li>
+                  <li><a href="">Soldier's Poem</a></li>
+                  <li><a href="">Invincible</a></li>
+                  <li><a href="">Assassin</a></li>
+                  <li><a href="">Exo-Politics</a></li>
+                  <li><a href="">City of Delusion</a></li>
+                  <li><a href="">Hoodoo</a></li>
+                  <li><a href="">Knights of Cydonia</a></li>
+                  <div>.</div>
+                </ul>
+              </div>
+              <a href="https://open.spotify.com/album/0lw68yx3MhKflWFqCsGkIs" target="_blank" class="button">stream</a>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-first">
+              <h2 class="title">Absolution</h2>
+              <img src="img/muse_slides/Muse - Absolution.png" alt="" />
+            </div>
+            <div class="item-aside">
+              <div class="playlist" id="abs">
+                <ul>
+                  <div class="title-table">playlist</div>
+                  <li><a href="">Intro</a></li>
+                  <li><a href="">Apocalypse Please</a></li>
+                  <li><a href="">Time Is Running Out</a></li>
+                  <li><a href="">Sing for Absolution</a></li>
+                  <li><a href="">Stockholm Syndrome</a></li>
+                  <li><a href="">Falling Away with You</a></li>
+                  <li><a href="">Interlude</a></li>
+                  <li><a href="">Hysteria</a></li>
+                  <li><a href="">Blackout</a></li>
+                  <li><a href="">Butterflies and Hurricanes</a></li>
+                  <li><a href="">The Small Print</a></li>
+                  <li><a href="">Endlessly</a></li>
+                  <li><a href="">thoughts of a Dying Atheist</a></li>
+                  <li><a href="">Ruled by Secrecy</a></li>
+                  <div>.</div>
+                </ul>
+              </div>
+              <a href="https://open.spotify.com/album/2Eq6RyxCm7qEAF2YLOxa4s" target="_blank" class="button">stream</a>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-first">
+              <h2 class="title">Hullabaloo</h2>
+              <img src="img/muse_slides/Muse - Hullabaloo.png" alt="" />
+            </div>
+            <div class="item-aside">
+              <div class="playlist" id="hbl">
+                <ul>
+                  <div class="title-table">playlist</div>
+                  <li><a href="">Forced In</a></li>
+                  <li><a href="">Shrinking Universe</a></li>
+                  <li><a href="">Recess</a></li>
+                  <li><a href="">Yes Please</a></li>
+                  <li><a href="">Map of Your Head</a></li>
+                  <li><a href="">Nature_1</a></li>
+                  <li><a href="">Shine Acoustic</a></li>
+                  <li><a href="">Ashamed</a></li>
+                  <li><a href="">The Gallery</a></li>
+                  <li><a href="">Hyper Chondriac Music</a></li>
+                  <div>.</div>
+                </ul>
+              </div>
+              <a href="https://open.spotify.com/album/5eJTvSeghTKoqN3Ly4TqEf" target="_blank" class="button">stream</a>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-first">
+              <h2 class="title">origin of symmetry</h2>
+              <img src="img/muse_slides/Muse - Origin.png" alt="" />
+            </div>
+            <div class="item-aside">
+              <div class="playlist" id="os">
+                <ul>
+                  <div class="title-table">playlist</div>
+                  <li><a href="">New Born</a></li>
+                  <li><a href="">Bliss</a></li>
+                  <li><a href="">Space Dementia</a></li>
+                  <li><a href="">Hyper Music</a></li>
+                  <li><a href="">Plug In Baby</a></li>
+                  <li><a href="">Citizen Erased</a></li>
+                  <li><a href="">Micro Cuts</a></li>
+                  <li><a href="">Screenager</a></li>
+                  <li><a href="">Darkshines</a></li>
+                  <li><a href="">Feeling Good</a></li>
+                  <li><a href="">Megalomania</a></li>
+                  <div>.</div>
+                </ul>
+              </div>
+              <a href="https://open.spotify.com/album/1Dh27pjT3IEdiRG9Se5uQn" target="_blank" class="button">stream</a>
+            </div>
+          </div>
+        </div>
+      </>
+    </section>
+
+    <section id="album">
+      <h2 class="title">álbuns</h2>
+
+      <div class="container">
+        <div class="albums">
+          <div class="disco">
+            <img src="img/showbiz.jpg" alt="">
+            <a href="https://open.spotify.com/album/6AyUVv7MnxxTuijp4WmrhO" target="_blank" class="hover">
+              <p>showbiz</p>
+            </a>
+          </div>
+
+          <div class="disco">
+            <img src="img/Muse - Origin.png" alt="">
+            <a href="https://open.spotify.com/album/1Dh27pjT3IEdiRG9Se5uQn" class="hover" target="_blank">
+              <p>origin of symmetry</p>
+            </a>
+          </div>
+
+          <div class="disco">
+            <img src="img/hullabaloo.jpg" alt="">
+            <a href="https://open.spotify.com/album/5eJTvSeghTKoqN3Ly4TqEf" target="_blank" class="hover">
+              <p>hullabaloo</p>
+            </a>
+          </div>
+          
+          <div class="disco">
+            <img src="img/Muse - Absolution.png" alt="">
+            <a href="https://open.spotify.com/album/2Eq6RyxCm7qEAF2YLOxa4s" target="_blank" class="hover">
+              <p>absolution</p>
+            </a>
+          </div>
+          
+          <div class="disco">
+            <img src="img/Muse - Black Holes.png" alt="">
+            <a href="https://open.spotify.com/album/0lw68yx3MhKflWFqCsGkIs" target="_blank" class="hover">
+              <p>black holes & <br>revelations</p>
+            </a>
+          </div>
+          
+          <div class="disco">
+            <img src="img/resistance.jpg" alt="">
+            <a href="https://open.spotify.com/album/0eFHYz8NmK75zSplL5qlfM" target="_blank" class="hover">
+              <p>the resistance</p>
+            </a>
+          </div>
+          
+          <div class="disco">
+            <img src="img/2andlaw.jpg" alt="">
+            <a href="https://open.spotify.com/album/3KuXEGcqLcnEYWnn3OEGy0" target="_blank" class="hover">
+              <p>the 2nd law</p>
+            </a>
+          </div>
+          
+          <div class="disco">
+            <img src="img/Muse - Drones.png" alt="">
+            <a href="https://open.spotify.com/album/2wart5Qjnvx1fd7LPdQxgJ" target="_blank" class="hover">
+              <p>drones</p>
+            </a>
+          </div>
+
+          <div class="disco">
+          <img src="img/Muse - Simulation Theory.png" alt="">
+          <a href="https://open.spotify.com/album/5OZgDtx180ZZPMpm36J2zC" target="_blank" class="hover">
+            <p>Simulation of theory</p>
+          </a>
+        </div>
+
+          <div class="disco">
+          <img src="img/Muse_WOTP.jpeg" alt="">
+          <a href="https://open.spotify.com/album/5qK8S5JRF8au6adIVtBsmk" target="_blank" class="hover">
+            <p>will of the people</p>
+          </a>
+        </div>
+        
+        <div class="disco">
+        <img src="img/Muse - Haarp.png" alt="">
+        <a href="https://open.spotify.com/album/2EcBoQ1Hb39hgSUEgrtR3j" target="_blank" class="hover">
+          <p>haarp</p>
+        </a>
+        </div>
+
+        <div class="disco">
+          <img src="img/Muse - Live at Rome.png" alt="">
+          <a href="https://open.spotify.com/album/2m7L60M210ABzrY9GLyBPZ" target="_blank" class="hover">
+            <p>live at rome</p>
+          </a>
+          </div>
+
+      </div>
+      </div>
+
+      <div id="note">
+      <h3>adquira todos os albums na loja oficial de muse</h3>
+    </div>
+
+    </section>
+
+    <section id="photos">
+      <h2 class="title">fotos</h2>
+      <div class="carousel-photos">
+        <div class="botao-direito" id="photo-next"></div>
+        <div class="botao-esquerdo" id="photo-prev" style="display: none;"></div>
+
+        <div class="photos-container">
+
+        <div class="photos-slide">
+          <div class="photos">
+            <img src="img/photos/1.jpg  " alt="">
+          </div>
+          <div class="photos">
+            <img src="img/photos/2.jpg" alt="">
+          </div>
+          <div class="photos">
+            <img src="img/photos/3.jpg" alt="">
+          </div>
+
+          <div class="photos">
+            <img src="img/photos/4.jpg" alt="">
+          </div>
+          <div class="photos">
+            <img src="img/photos/5.jpg" alt="">
+          </div>
+          <div class="photos">
+            <img src="img/photos/6.jpeg" alt="">
+          </div>
+          <div class="photos">
+            <img src="img/photos/7.jpeg" alt="">
+          </div>
+          <div class="photos">
+            <img src="img/photos/8.jpg" alt="">
+          </div>
+          <div class="photos">
+            <img src="img/photos/9.jpg" alt="">
+          </div>
+          <div class="photos">
+            <img src="img/photos/10.jpg" alt="">
+          </div>
+          <div class="photos">
+            <img src="img/photos/11.jpg" alt="">
+          </div>
+          <div class="photos">
+            <img src="img/photos/12.jpg" alt="">
+          </div>
+        </div>
+        </div>
+      </div>
+      </div>
+
+      
+    
+
+    </div>
+    </section>
+    <section>
+      <div class="container">
+      <h2 class="title">galeria</h2>
+        <div class="albums">
+          <div class="disco">
+            <img src="img/photos/carousel/1.jpg" alt="">
+          </div>
+          <div class="disco">
+            <img src="img/photos/carousel/2.jpg" alt="">
+          </div>
+          <div class="disco">
+            <img src="img/photos/carousel/3.jpg" alt="">
+          </div>
+          <div class="disco">
+            <img src="img/photos/carousel/4.jpg" alt="">
+          </div>
+          <div class="disco">
+            <img src="img/photos/carousel/5.jpg" alt="">
+          </div>
+          <div class="disco">
+            <img src="img/photos/carousel/6.jpg" alt="">
+          </div>
+          <div class="disco">
+            <img src="img/photos/carousel/7.jpg" alt="">
+          </div>
+          <div class="disco">
+            <img src="img/photos/carousel/8.jpg" alt="">
+          </div>
+          <div class="disco">
+            <img src="img/photos/carousel/9.jpg" alt="">
+          </div>
+          <div class="disco">
+            <img src="img/photos/carousel/10.png" alt="">
+          </div>
+          <div class="disco">
+            <img src="img/photos/carousel/11.png" alt="">
+          </div>
+          <div class="disco">
+            <img src="img/photos/carousel/12.png" alt="">
+          </div>
+          
+        </div>
+        <a href="https://www.muse.mu/gallery" class="button" style="margin: 2rem auto 0 auto;">veja mais</a>
+    </section>
+
+    
+
+  </div>
+
+  <section id="end">
+    <div class="container">
+      <h2 class="title-form">seja o primeiro a saber as novidades de muse</h2>
+      <h2 class="title-form none ">Obrigado!</h2>
+      <form action="" class="form">
+        <input type="email" name="email" id="email" placeholder="coloque seu e-mail">
+        <button class='form-button'>enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="social">
+      <a href="https://www.facebook.com/muse" target="_blank"><i class="fa fa-facebook-f fa-2x"></i></a>
+      <a href="https://instagram.com/muse" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+      <a href="https://www.youtube.com/muse" target="_blank"><i class="fa fa-youtube-play fa-2x"></i></a>
+      <a href="https://open.spotify.com/artist/12Chz98pHFMPJEknJQMWvI" target="_blank"><i class="fa fa-spotify fa-2x"></i></a>
+  </div>
+  <div class="eu">Feito com carinho: Henrique Gustavo</div>
+  </footer>
+
+  </body>
+  <script src="js/main.js"></script>
+</html>

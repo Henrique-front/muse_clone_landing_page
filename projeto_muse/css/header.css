@@ -1,0 +1,125 @@
+html {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+header {
+  font-size: 0.8125rem;
+  letter-spacing: 1px;
+  width: 100%;
+  z-index: 99;
+  position: fixed;
+  background-color: #161616;
+  color: #fff;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1280px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.logo img {
+  height: 30px;
+}
+
+.nav {
+  text-transform: uppercase;
+  color: #fff;
+  list-style: none;
+}
+
+a {
+  color: #fff;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.nav-bar li + li {
+  margin-left: 1rem;
+}
+
+.nav-bar li {
+  padding: 0.25rem 0;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+
+.nav-bar li:hover {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  transition: 0.5s linear;
+}
+
+.ghost {
+  width: 100%;
+  height: 50px;
+  z-index: -999;
+}
+
+.nav-mobile {
+  transition: 0.5s;
+  display: none;
+  /* grid */
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+
+.nav-mobile span {
+  display: block;
+  /* block */
+  width: 32px;
+  height: 4px;
+  background: white;
+  border-radius: 5px;
+}
+
+.nav-mobile-close {
+  transition: 0.5s;
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+.nav-mobile-close span {
+  position: absolute;
+  top: 12px;
+  display: block;
+  width: 32px;
+  height: 4px;
+  background: white;
+  border-radius: 5px;
+  transform: rotate(-135deg);
+}
+
+.nav-mobile-close span + span {
+  transform: rotate(135deg);
+}
+
+.menu-mobile {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  padding: 4rem 0;
+  background: #161616;
+  z-index: 10000;
+}
+
+.menu-mobile ul {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.menu-mobile ul li {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}

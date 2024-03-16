@@ -1,0 +1,330 @@
+@media only screen and (max-width: 1920px) {
+  .main {
+    background: url(../img/muse_banner-derivatives/muse_banner-1920_x_1280.jpg)
+      no-repeat top center;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .main {
+    background: url(../img/muse_banner-derivatives/muse_banner-1366_x_910.jpg)
+      no-repeat top center;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  #end {
+    background: url(../img/muse_form_derivatives/muse\ -\ banner-1280_x_853.jpg)
+      no-repeat top center;
+  }
+
+  .main {
+    background: url(../img/muse_banner-derivatives/muse_banner-1280_x_853.jpg)
+      no-repeat top center;
+  }
+
+  .about-container {
+    display: block;
+  }
+
+  .container {
+    max-width: 1080px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .container {
+    width: 768px;
+  }
+
+  #album .container {
+    all: unset;
+  }
+
+  .albums {
+    justify-content: center;
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1152px) {
+  .botao-esquerdo {
+    left: 5%;
+  }
+
+  .botao-direito {
+    right: 5%;
+  }
+
+  #photo-next {
+    right: 10%;
+    top: 60%;
+  }
+
+  #photo-prev {
+    left: 10%;
+    top: 60%;
+  }
+}
+
+@media only screen and (max-width: 1044px) {
+  .main {
+    height: 700px;
+  }
+
+  .title-form {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 965px) {
+  #end {
+    background: url(../img/muse_form_derivatives/muse\ -\ banner-991_x_660.jpg)
+      no-repeat center center;
+  }
+
+  .main {
+    background: url(../img/muse_banner-derivatives/muse_banner-991_x_660.jpg)
+      no-repeat top center;
+  }
+
+  .albums {
+    grid-template-columns: repeat(3, 220px);
+  }
+
+  #photo-next {
+    right: 0;
+    top: 60%;
+  }
+
+  #photo-prev {
+    left: 0;
+    top: 60%;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .title-form {
+    margin-bottom: 1rem;
+  }
+
+  .botao-esquerdo {
+    left: 0;
+  }
+
+  .botao-direito {
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 783px) {
+  .container {
+    all: unset;
+  }
+
+  .carousel {
+    max-width: 400px;
+  }
+
+  .item-aside .button {
+    width: 100%;
+  }
+
+  .item {
+    flex-direction: column;
+  }
+
+  .botao-esquerdo {
+    display: none;
+  }
+
+  .botao-direito {
+    display: none;
+  }
+
+  .mobile-botao-esquerdo {
+    display: block;
+  }
+
+  .mobile-botao-direito {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #end {
+    background: url(../img/muse_form_derivatives/muse\ -\ banner-767_x_511.jpg)
+      no-repeat top center;
+  }
+
+  .main {
+    background: url(../img/muse_banner-derivatives/muse_banner-767_x_511.jpg)
+      no-repeat top center;
+  }
+
+  .albums {
+    gap: 0.5rem;
+    row-gap: 1rem;
+  }
+
+  .photos-container {
+    overflow-x: scroll;
+  }
+
+  #photo-next {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .albums {
+    grid-template-columns: repeat(2, 220px);
+  }
+}
+
+@media only screen and (max-width: 585px) {
+  .title-form {
+    font-size: 1.5rem;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  section {
+    padding: 4rem 0.5rem;
+  }
+
+  .mobile-botao-direito {
+    top: 45%;
+    right: 0;
+  }
+
+  .mobile-botao-esquerdo {
+    top: 45%;
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .photos-container {
+    padding: 0 0.3rem;
+  }
+
+  #note {
+    font-size: 0.65rem;
+  }
+
+  .albums {
+    grid-template-columns: repeat(2, 150px);
+  }
+
+  .info p {
+    padding: 0 1rem;
+  }
+
+  .disco {
+    width: 150px;
+    height: 150px;
+  }
+
+  .header-container {
+    height: 60px;
+  }
+
+  .nav-mobile {
+    display: grid;
+    cursor: pointer;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .playlist {
+    height: 150px;
+    width: 100%;
+  }
+
+  .item-aside {
+    grid-template-rows: 150px 50px;
+    grid-template-columns: 100%;
+    gap: 1rem;
+    justify-content: start;
+  }
+
+  section {
+    padding: 4rem 0;
+  }
+}
+
+@media only screen and (max-width: 455px) {
+  .main {
+    background: url(../img/muse_banner-derivatives/muse_banner-450_x_299.jpg)
+      no-repeat top center;
+    height: 400px;
+  }
+
+  .video video {
+    max-width: 100%;
+    height: 100vw;
+    border-radius: 5px;
+    border: 1px solid #161616;
+  }
+
+  .carousel {
+    max-width: 225px;
+  }
+
+  .mobile-botao-direito {
+    display: none;
+  }
+
+  .mobile-botao-esquerdo {
+    display: none;
+  }
+
+  .mini-botao-esquerdo {
+    display: block;
+  }
+
+  .mini-botao-direito {
+    display: block;
+  }
+
+  .item {
+    max-width: 225px;
+  }
+
+  .item img {
+    width: 225px;
+  }
+
+  .item .title {
+    font-size: 1rem;
+  }
+
+  .playlist ul {
+    margin-left: 1rem;
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .form input {
+    width: 300px;
+  }
+
+  .form-button {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .mini-botao-direito {
+    right: 0;
+  }
+
+  .mini-botao-esquerdo {
+    left: 0;
+  }
+}
